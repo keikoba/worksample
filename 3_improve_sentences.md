@@ -24,7 +24,6 @@ selfはインスタンスオブジェクト自身を指しています。クラ�
 - メソッド定義内の`self`はメソッドを呼び出した時のオブジェクト（インスタンス）を返す。    
 
 以上のことがわかります。図1を参照してイメージをつかんでください。 
-図1　https://github.com/keikoba/worksample/blob/keikoba-branch1/self%20chart1.pdf
 
 # 次のコードを見て、更に理解を深めましょう！　　
 
@@ -38,7 +37,6 @@ selfはインスタンスオブジェクト自身を指しています。クラ�
     p Dogs.colors  
 　　　　　
 - このコードの場合、`self`はクラス名（オブジェクト名）の`Dogs`を指します。`Dogs`の`colors`は配列の中の4色がある、という意味コードになります。  図2を参照して確認してみましょう。 
-図2　https://github.com/keikoba/worksample/blob/keikoba-branch1/self%20chart2.pdf
 　　　　
 # まとめ  
 このことから、`self`はクラスを含むオブジェクトを指します。どのオブジェクトを指しているかは、その`self`がある場所に依存しますので注意しましょう。   
