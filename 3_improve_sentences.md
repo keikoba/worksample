@@ -36,9 +36,11 @@ selfはインスタンスオブジェクト自身を指しています。クラ�
        end  
     end  
     p Dogs.colors  
-　　　　　
+　　　
+   
 - このコードの場合、`self`はクラス名（オブジェクト名）の`Dogs`を指します。`Dogs`の`colors`は配列の中の4色がある、という意味コードになります。  図2を参照して確認してみましょう。  
 図2　https://github.com/keikoba/worksample/blob/keikoba-branch1/self%20chart2.pdf
+
 　　　　
 # まとめ  
 このことから、`self`はクラスを含むオブジェクトを指します。どのオブジェクトを指しているかは、その`self`がある場所に依存しますので注意しましょう。   
